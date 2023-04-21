@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+     
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma Runs a Marathon</title>
+    <link href="/style.css" rel="stylesheet">
+    <script src="/script.js"></script>
+  </head>
+
+
+
+  <body>
+   <nav>
+        <ul>
+        <li class="line"><a href="index.html">Home</a></li>
+        <li class="line"><a href="blog.html">Blog</a></li>
+        <li class="line"><a href="/articles">Articles</a></li>
+        <li class="line"><a href="donate.html">Donate</a></li>
+        <li class="solo"><a href="gallery.html">Gallery</a></li>
+        </ul>
+   </nav>
+    <%= yield %>
+  </body>
+</html>

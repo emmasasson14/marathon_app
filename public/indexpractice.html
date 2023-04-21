@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emma Runs a Marathon</title>
+    <link href="stylepractice.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<div class="flex-wrapper">
+<body>
+    <!-- NAV BAR-->
+    <nav>
+        <ul>
+        <li class="line"><a href="index.html">Home</a></li>
+        <li class="line"><a href="blog.html">Blog</a></li>
+        <li class="line"><a href="/articles">Articles</a></li>
+        <li class="line"><a href="donate.html">Donate</a></li>
+        <li class="solo"><a href="gallery.html">Gallery</a></li>
+        </ul>
+   </nav>
+
+    <!-- HEADER-->
+<h1>Emma's 2023 NYC Marathon Journey </h1>
+    <!-- TIMER -->
+<p class= "timer" id="demo"><span id="timeline">Time</span> until I run!</p>
+    <!--WEATHER from https://weatherwidget.io/-->
+<a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/?unit=us" data-label_1="NEW YORK CITY" data-label_2="WEATHER" data-theme="original" >NEW YORK CITY WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+   <!-- Background IMG-->
+<section class="main">
+     <img src="images/nyc2.jpg" class="nyc" alt="NYC"></banner>
+    
+ <!--Image by <a href="https://pixabay.com/users/mpewny-777390/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=668616">Michael Pewny</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=668616">Pixabay</a>-->
+
+   <!-- <p> Going to run in <span id="days"> a certain amount of</span> days! </p>-->
+
+</section>
+<div class="mainbtm">
+    <!--STRAVA WIDGET-->
+    <iframe style="border-radius: 0px" height='auto' width='30%' frameborder='0px' allowtransparency='false' scrolling='no' src='https://www.strava.com/athletes/48679228/activity-summary/faab105a3d56966572c46b00408c7bfed4e256ae'></iframe>
+
+    <!--SPOTIFY PLAYLIST-->
+    <iframe style="border-radius: 0px" src="https://open.spotify.com/embed/playlist/23eul7FeYBJRfU1JfSZwyY?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    
+</div>
+<!--Footer-->
+<footer>
+<ul>
+    <li>&copy Emma Sasson 2023</li>
+    <li><a class='foot' href="https://runwithtfk.org/Profile/PublicPage/102110" target="_blank"> Donate</a></li>
+    <li><a class='foot' href="https://www.nyrr.org/tcsnycmarathon" target="_blank">NYC Marathon</a></li>  
+</ul>
+</footer>
+</body>
+</div>
+</html>
